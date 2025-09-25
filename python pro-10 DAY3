@@ -1,0 +1,88 @@
+College Management wants to separate the eligible students for their placement.so find the eligible students for the placement.
+
+Notes:-
+
+- If the students has 1 arrear and the cpga is above 70 - They are eligible for Placement.
+- If the students has 1 or 2 arrear and the cpga is above 75 -They are eligible for Placement.
+- Remaining students aren't eligible for Placement.
+Input Format
+
+input consists of one String and two integer.
+Constraints
+
+No Constraints
+
+Output Format
+
+print the statement "Eligible for Placement" or "Not Eligible for Placement".
+Sample Input 0
+
+John
+1
+76
+Sample Output 0
+
+Name of the Student:John
+John is Eligible for Placement
+Sample Input 1
+
+John
+2
+70
+Sample Output 1
+
+Name of the Student:John
+John is Not Eligible for Placement
+Contest ends in 5 days
+Submissions: 84
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+Name=input()
+3
+Arear=int(input())
+4
+cpga=int(input())
+5
+print(f"Name of the Student:{Name}")
+6
+if(Arear==1 and cpga>70):
+7
+    print(f"{Name} is Eligible for Placement")
+8
+elif(Arear<=2 and cpga>75):
+9
+    print(f"{Name} is Eligible for Placement")
+10
+else:
+11
+    print(f"{Name} is Not Eligible for Placement")
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Testcase 1
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+John
+1
+76
+Your Output (stdout)
+
+Name of the Student:John
+John is Eligible for Placement
+Expected Output
+
+Name of the Student:John
+John is Eligible for Placement
