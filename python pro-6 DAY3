@@ -1,0 +1,76 @@
+Maya wants to know how to find whether the alphabet is Vowel or Consonant.could you please help her to find the alphabet is Vowel or Consonant.
+
+Input Format
+
+input consists of one Character.
+Constraints
+
+No Constraints
+
+Output Format
+
+print whether the character is Vowel or Consonant or Invalid Input.
+Sample Input 0
+
+A
+Sample Output 0
+
+The Character A is Vowel
+Sample Input 1
+
+a
+Sample Output 1
+
+The Character a is Vowel
+Sample Input 2
+
+9
+Sample Output 2
+
+Invalid Input
+Contest ends in 5 days
+Submissions: 96
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+a=input()
+3
+vowel="aeiouAEIOU"
+4
+if(a in vowel):
+5
+    print(f"The Character {a} is Vowel")
+6
+elif a.isalpha():
+7
+    print(f"The Character {a} is Consonant")
+8
+else:
+9
+    print("Invalid Input")
+Line: 1 Col: 1
+Run Code Submit CodeUpload Code as File 
+Test against custom input
+Testcase 0
+Testcase 1
+Testcase 2
+Congratulations, you passed the sample test case.
+
+Click the Submit Code button to run your code against all the test cases.
+
+Input (stdin)
+
+A
+Your Output (stdout)
+
+The Character A is Vowel
+Expected Output
+
+The Character A is Vowel
