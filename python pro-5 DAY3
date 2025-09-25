@@ -1,0 +1,61 @@
+Deepak wants to know how to find whether the year is leap year or not.could you please help him to find the year is leap year or not. - A century year is a year ending with 00. A century year is a leap year only if it is divisible by 400. - A leap year (except a century year) can be identified if it is exactly divisible by 4. - A century year should be divisible by 4 and 100 both. - A non-century year should be divisible only by 4.
+
+Input Format
+
+input consists of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the statemene whether the given year is leap or not.
+Sample Input 0
+
+1900
+Sample Output 0
+
+The Given Year 1900 is Not a Leap Year.
+Sample Input 1
+
+2012
+Sample Output 1
+
+The Given Year 2012 is a Leap Year.
+Sample Input 2
+
+2015
+Sample Output 2
+
+The Given Year 2015 is Not a Leap Year.
+Contest ends in 5 days
+Submissions: 100
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+2
+a=int(input())
+3
+if(a%400==0):
+4
+    print(f"The Given Year {a} is a Leap Year.")
+5
+elif(a%100==0):
+6
+    print(f"The Given Year {a} is Not a Leap Year.")
+7
+elif(a%4==0):
+8
+     print(f"The Given Year {a} is a Leap Year.")
+9
+else:
+10
+     print(f"The Given Year {a} is Not a Leap Year.")
+11
+    
